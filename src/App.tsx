@@ -1,13 +1,16 @@
 
+import { BrowserRouter } from 'react-router-dom';
+//Routes
+import { AppRoutes } from './routes';
 
 export const App = () => {
   return (
     
-    <div className="App">
+    <BrowserRouter>
+    
+      <AppRoutes />
 
-      <h1>Olá projeto</h1>
-
-    </div>
+    </BrowserRouter>
 
   );
   
